@@ -4,7 +4,7 @@ unappetizing and yet not bad enough to be thrown away
 
 1.**UniqueSam_bulk_sc.py**
 <details>
-<summary> function </summary>
+<summary>Click to expand</summary>
 输入给定的bulk或者single cell的sam文件, 输出一个每条reads唯一的sam文件, 其中每条reads是它mapping quality最大的mapping结果;
 
 -i:输入sam文件路径;
