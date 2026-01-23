@@ -37,6 +37,13 @@ unappetizing and yet not bad enough to be thrown away
 
 这个脚本是针对MAGIC-seq的二代数据，提取出固定的barcode, XY或者XYZ，看看固定的barcode是否在所有给定的白名单范围内，然后计算出barcode正确率;
 
+-i:输入的是提取好了的R1的fastq.gz文件, 就是那个reformat.R1;
+
+-b:输入的是barcode的白名单文件;
+
+-m:表示是XY的2个barcode模式还是XYZ的3个barcode的模式, 默认是2, 或者输入3;
+
+-o:输出的txt文件, 具体的每个reads的barcode的信息;
 
 </details>
 
