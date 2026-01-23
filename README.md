@@ -16,7 +16,7 @@ unappetizing and yet not bad enough to be thrown away
 </details>
 
 
-1.**concat_me.py**
+2.**concat_me.py**
 <details>
 <summary> </summary>
 这个代码是用来替代MAGIC-seq流程中合并seqkit concat两个文件的功能; 因为seqkit的concat后名称中出现"|", 跟read的R2匹配不上，因此只是将fastq的第二行reads和第四行测序质量合并，其他两行不变。
@@ -28,4 +28,45 @@ unappetizing and yet not bad enough to be thrown away
 -o:输出的合并的结果, 也还是fastq.gz;
 
 </details>
+
+
+
+3.**.py**
+<details>
+<summary> </summary>
+
+
+</details>
+
+
+
+4.**.py**
+<details>
+<summary> </summary>
+
+
+</details>
+
+
+
+
+
+5.**.py**
+<details>
+<summary> </summary>
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
 
