@@ -31,9 +31,11 @@ unappetizing and yet not bad enough to be thrown away
 
 
 
-3.**.py**
+3.**stat_Barcode.py**
 <details>
 <summary> </summary>
+
+这个脚本是针对MAGIC-seq的二代数据，提取出固定的barcode, XY或者XYZ，看看固定的barcode是否在所有给定的白名单范围内，然后计算出barcode正确率;
 
 
 </details>
